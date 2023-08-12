@@ -6,6 +6,7 @@
 # เล่นเกมตามรอบ
 # แสดงผลคะแนน
 """ 
+same = draw
 rock - paper = paper
 rock - scissor = rock
 paper - scissor = scissor
