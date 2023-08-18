@@ -1,6 +1,7 @@
 """
 find anime name from the api and print the data.
 ref link : https://kitsu.docs.apiary.io/
+https://kitsu.io/api/edge/anime?filter[text]=cowboy%20bebop
 """
 
 import httpx
