@@ -3,6 +3,8 @@ import random
 # install with: pip install streamlit
 # run with: streamlit run main.py
 # ref: https://docs.streamlit.io/en/stable/api.html
+# https://docs.streamlit.io/library/api-reference
+
 ''' 
 สร้าง web app ได้ง่ายๆ โดยไม่ต้องเขียน html, css, javascript เอง แต่ต้องมี python ในการเขียน code แทน 
 สามารถเขียนได้ง่ายๆ และเร็วกว่า แต่ไม่สามารถทำได้ทุกอย่าง และไม่สามารถ customize ได้มาก แต่สามารถเขียนเพื่อใช้งานได้ง่ายกว่า 
