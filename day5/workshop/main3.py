@@ -34,6 +34,7 @@
 # share google sheet ให้ service account (copy client_email ในไฟล์ key.json อนุญาติสิทธิ์ใน google sheet นั้น)
 # dnuttest@gm 
 #############################################
+
 import gspread
 
 gc = gspread.service_account('/home/ntthrk-ch/Documents/Ntthrk_UBUNTU/LearningSkill/Python/Python_for_everybody/day5/workshop/grounded-tine-396404-6fff91441d97.json')
