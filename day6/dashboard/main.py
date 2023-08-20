@@ -19,7 +19,7 @@ height = st.slider("ส่วนสูงของคุณ (cm)", 100, 200, 170
 weight = st.slider("น้ำหนักของคุณ (kg)", 40, 150, 70) # แสดง slider ให้เลื่อนเลือกค่า และเก็บค่าที่เลือกไว้ในตัวแปร weight
 # weight = st.number_input("น้ำหนักของคุณ", 40, 150, 70) # แสดงช่องให้กรอกข้อมูล และเก็บค่าที่กรอกไว้ในตัวแปร weight
 
-if st.button("คำนวณ")
+if (age and height and weight): # ถ้ามีข้อมูลทั้ง 3 ตัว
     bmi = float(weight) / ((float(height)/100)**2)
     st.write("ค่า BMI ของคุณคือ", bmi)
 
