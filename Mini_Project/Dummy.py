@@ -8,7 +8,7 @@ import random
 
 ###########################################################################################
 ## connect to google sheet
-gc = gspread.service_account(filename='./json/grounded-tine-396404-c1b582e331cc.json')
+gc = gspread.service_account(filename='./json/grounded-tine-396404-9681e8bfdff7.json')
 sh = gc.open("Income_and_Expenses_Account")
 ###########################################################################################
 ## set variable
