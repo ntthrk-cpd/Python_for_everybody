@@ -13,7 +13,10 @@ def add_data_to_worksheet(data):
     month : str = data[0].strftime("%B")
     worksheet = sh.worksheet("Sheet_" + month)
     date_input : str = data[0].strftime("%d") + "-" + month + "-" + data[0].strftime("%Y")
-    balance = float(sh.worksheet("Sheet_" + month).get_all_values()[-1][4])
+    if len(sh.worksheet("Sheet_" + month).get_all_values()) > 1:
+        balance = float(sh.worksheet("Sheet_" + month).get_all_values()[-1][4])
+    else:
+        balance = 0.00
     if data[1] in sd.description_list_income:
         income = data[2]
     elif data[1] in sd.deprecation_list_regular_payment:
